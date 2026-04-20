@@ -51,7 +51,7 @@ This project is a SQL-based database system designed to manage and analyze an on
 
 ## 🛠️ Technologies Used
 
-- SQL (PostgreSQL / MySQL)
+- SQL (PostgreSQL)
 - CSV Data Handling
 
 ---
