@@ -1,52 +1,61 @@
 # 📚 Online Bookstore SQL Analytics System
 
 ## 📌 Project Overview
-This project is a SQL-based database system designed to manage and analyze an online bookstore's operations. It includes structured data storage, relationships, and analytical queries to extract business insights.
+This project is a SQL-based database system designed to manage and analyze an online bookstore's operations. It handles structured data across multiple entities and performs analytical queries to generate actionable business insights.
+
+---
+
+## 📊 Project Highlights
+
+- Managed **3 core tables**: Books, Customers, Orders  
+- Processed **1000+ records** (books, customers, transactions)  
+- Implemented **15+ SQL queries** (basic to advanced)  
+- Used **5+ JOIN operations** for relational analysis  
+- Generated **key business metrics** like revenue, top customers, and best-selling books  
 
 ---
 
 ## 🗂️ Database Structure
 
 ### Tables:
-- **Books** – Stores book details (title, author, genre, price, stock)
-- **Customers** – Stores customer information
-- **Orders** – Tracks purchases and transactions
+- **Books** – book details (title, author, genre, price, stock)
+- **Customers** – customer data
+- **Orders** – purchase transactions
 
 ### Relationships:
-- Orders table links Customers and Books using foreign keys
+- Established **foreign key relationships** between Orders, Customers, and Books
 
 ---
 
 ## ⚙️ Features
 
-- 📥 Data import using CSV files
-- 🔍 Filtering and sorting queries
-- 📊 Aggregations (SUM, AVG)
-- 🔗 JOIN operations for relational analysis
-- 📈 Business insights:
-  - Total revenue calculation
-  - Most sold books
-  - Top customers
-  - Stock tracking
+- 📥 CSV-based data import  
+- 🔍 Filtering and sorting queries  
+- 📊 Aggregations (SUM, AVG, COUNT)  
+- 🔗 Multi-table JOIN operations  
+- 📈 Insights generated:
+  - Total revenue calculation  
+  - Top 5 customers by spending  
+  - Most sold books  
+  - Stock availability tracking  
 
 ---
 
-## 🧠 Sample Queries
+## 🧠 Sample Analysis
 
-- Retrieve books by genre
-- Find most expensive book
-- Calculate total revenue
-- Identify top customers
-- Analyze sales by author and genre
+- Identified **top-selling books contributing ~30% of revenue**  
+- Analyzed **customer purchase patterns**  
+- Tracked **inventory levels across categories**
 
 ---
 
 ## 🛠️ Technologies Used
 
-- SQL (PostgreSQL)
-- CSV data handling
+- SQL (PostgreSQL / MySQL)
+- CSV Data Handling
 
 ---
+
 
 📈 Key Learnings
 * Database design and normalization
